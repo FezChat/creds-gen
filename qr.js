@@ -6,7 +6,7 @@ const qrcode = require("qrcode");
 const {
     default: makeWASocket,
     useMultiFileAuthState
-} = require("gifted-baileys");
+} = require("@whiskeysockets/baileys");
 
 let CURRENT_QR = "";
 let READY = false;
