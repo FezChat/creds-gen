@@ -10,7 +10,7 @@ const {
     delay,
     makeCacheableSignalKeyStore,
     Browsers
-} = require("gifted-baileys");
+} = require("@whiskeysockets/baileys");
 
 // 🔹 Utility: clean up folders
 function removeFile(FilePath) {
